@@ -7,7 +7,9 @@
   android:layout_height="match_parent"
   android:paddingTop="?actionBarSize"
   tools:context=".controller.MainActivity"
-  tools:showIn="@layout/activity_main">
+  tools:showIn="@layout/activity_main"
+  android:keepScreenOn="true">
+
 
   <android.support.v7.widget.RecyclerView
     android:id="@+id/pick_list_view"
